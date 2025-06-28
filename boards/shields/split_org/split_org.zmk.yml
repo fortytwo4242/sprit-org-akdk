@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: split_org
+name: split_org
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - split_org_left
+  - split_org_right
