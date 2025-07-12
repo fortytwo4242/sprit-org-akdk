@@ -73,7 +73,7 @@
         status = "okay";
         hscroll {
             layers = <3>;
-            input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT)>, <&zip_x_scaler 1 16>, <&zip_y_scaler 0 1>, <&zip_xy_to_scroll_mapper>;
+            input-processors = <&zip_x_scaler 1 16>, <&zip_y_scaler 0 1>, <&zip_xy_to_scroll_mapper>;
         };
         vscroll {
             layers = <0 1 2 4>;
